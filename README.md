@@ -17,9 +17,9 @@
 
 ### Steps To Run The News App:-
 
-  1. git clone https://gitlab.com/ITWSproject/Finalproject.git
+  1. git clone https://github.com/ananyaarun/News-App-in-Flask.git
   
-  2. cd Finalproject/Project
+  2. cd News-App-in-Flask/Project
   
   3. python3 app.py
 
