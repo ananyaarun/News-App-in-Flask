@@ -1,6 +1,6 @@
 # NEWS APPLICATION
 
-## ITWS 2 Project by Ananya Arun
+## ITWS-2 Project by Ananya Arun
 
 ### Pre-requisites
 
