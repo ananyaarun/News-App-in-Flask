@@ -17,7 +17,6 @@ registered_user = None
 searchbar = []
 
 
-
 @app.route("/")
 def main():
     global registered_user
