@@ -4,11 +4,14 @@
 
 ### Pre-requisites
 
- 1. Python 3
+ 1. Python 3 
+ - Link to installation instructions : https://realpython.com/installing-python/
 
 	 `sudo apt-get install python3`
+	 
 
  2. Flask
+ - Link to installation instructions : http://flask.pocoo.org/docs/0.12/installation/
  
 	 `pip3 install flask`
 
