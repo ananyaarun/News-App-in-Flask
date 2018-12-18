@@ -16,7 +16,6 @@ db = SQLAlchemy(app)
 registered_user = None
 searchbar = []
 
-
 @app.route("/")
 def main():
     global registered_user
@@ -49,7 +48,6 @@ def subsection(section):
     Subsections = db.session.query(models.Contents.subsection).distinct()
     contents = db.session.query(models.Contents).filter_by(subsection=section).all()
     return render_template('section1.html', contents=contents, section=section, subsection=Subsections)
-
 
 @app.route("/subsec/<news>")
 def subsec(news):
