@@ -31,7 +31,6 @@ class User(db.Model):
     def user_logout(self):
         self.active = False
 
-
 class Contents(db.Model):
     '''Contents class containing all about the news and its rating and comments'''
     __tablename__ = 'contents-table'
@@ -63,7 +62,6 @@ class Contents(db.Model):
         self.image = image
         self.images = images
 
-
 class Rating(db.Model):
     '''Rating class containing the rating linked to a specific news id'''
     __tablename__ = 'rating-table'
@@ -76,7 +74,6 @@ class Rating(db.Model):
         self.rating = rating
         self.contents_id = contents_id
 
-
 class Bookmark(db.Model):
     '''Bookmark class containing bookmarked news of the user for a specific news id'''
     __tablename__ = 'bookmark-table'
@@ -88,7 +85,6 @@ class Bookmark(db.Model):
     def __init__(self, title, user_id):
         self.title = title
         self.user_id = user_id
-
 
 class Comment(db.Model):
     '''Comment class containing all the comments given by several users for a specific news id'''
