@@ -31,6 +31,7 @@ class User(db.Model):
     def user_logout(self):
         self.active = False
 
+        
 class Contents(db.Model):
     '''Contents class containing all about the news and its rating and comments'''
     __tablename__ = 'contents-table'
