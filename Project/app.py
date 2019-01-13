@@ -10,7 +10,6 @@ app = Flask(__name__)
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///signin.db'
 app.config['UPLOADS_FOLDER'] = os.path.realpath('.') + '/static/css'
-
 db = SQLAlchemy(app)
 registered_user = None
 searchbar = []
